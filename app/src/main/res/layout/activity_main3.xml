@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:padding="10dp"
+    tools:context=".MainActivity3">
+
+    <EditText
+        android:id="@+id/username1"
+        android:layout_width="395dp"
+        android:layout_height="66dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="6dp"
+        android:hint="User Name"
+        android:textColor="#090909" />
+
+    <EditText
+        android:id="@+id/password1"
+        android:layout_width="400dp"
+        android:layout_height="64dp"
+        android:layout_below="@+id/username1"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="86dp"
+        android:layout_marginEnd="1dp"
+        android:hint="Password"
+        android:textColor="#090909" />
+
+    <Button
+        android:id="@+id/btnsignin1"
+        android:layout_width="234dp"
+        android:layout_height="66dp"
+        android:layout_below="@+id/password1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="93dp"
+        android:layout_marginTop="119dp"
+        android:layout_marginEnd="94dp"
+        android:backgroundTint="#3F608C"
+        android:text="SIGN IN"
+        android:textColor="#ECEFEF" />
+</RelativeLayout>

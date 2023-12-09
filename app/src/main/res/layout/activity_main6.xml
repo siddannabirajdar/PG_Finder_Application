@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity6">
+
+    <Button
+        android:id="@+id/nest"
+        android:layout_width="365dp"
+        android:layout_height="70dp"
+        android:backgroundTint="#27374D"
+        android:text="D. Nest Ladies Paying Guest"
+        android:textColor="#ECEFEF"
+        android:textSize="16sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.523"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.134" />
+
+    <Button
+        android:id="@+id/down"
+        android:layout_width="365dp"
+        android:layout_height="70dp"
+        android:backgroundTint="#27374D"
+        android:text="G.The Down Town Ladies Pg"
+        android:textColor="#ECEFEF"
+        android:textSize="16sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.314" />
+
+    <Button
+        android:id="@+id/thapasya"
+        android:layout_width="365dp"
+        android:layout_height="80dp"
+        android:backgroundTint="#27374D"
+        android:text="Rose Villa pg"
+        android:textColor="#ECEFEF"
+        android:textSize="16sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
+
+    <Button
+        android:id="@+id/dabba"
+        android:layout_width="365dp"
+        android:layout_height="70dp"
+        android:backgroundTint="#27374D"
+        android:text="Varahi pg"
+        android:textColor="#ECEFEF"
+        android:textSize="16sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.686" />
+
+    <Button
+        android:id="@+id/brahmi"
+        android:layout_width="365dp"
+        android:layout_height="70dp"
+        android:backgroundTint="#27374D"
+        android:text="Gangothri Pg"
+        android:textColor="#ECEFEF"
+        android:textSize="16sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.402"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.847" />
+</androidx.constraintlayout.widget.ConstraintLayout>

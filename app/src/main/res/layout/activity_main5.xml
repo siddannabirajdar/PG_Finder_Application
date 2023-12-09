@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity5">
+
+    <Button
+        android:id="@+id/shalom"
+        android:layout_width="365dp"
+        android:layout_height="72dp"
+        android:backgroundTint="#27374D"
+        android:text="Shalom PG"
+        android:textColor="#ECEFEF"
+        android:textSize="16sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.41"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.209" />
+
+    <Button
+        android:id="@+id/deepa"
+        android:layout_width="365dp"
+        android:layout_height="72dp"
+        android:backgroundTint="#27374D"
+        android:text="P.Divya-Deepa Ladies Hostel and Ladies PG"
+        android:textColor="#F4F2F2"
+        android:textSize="16sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.452"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.464" />
+
+    <Button
+        android:id="@+id/karthik"
+        android:layout_width="365dp"
+        android:layout_height="72dp"
+        android:backgroundTint="#27374D"
+        android:gravity="center"
+        android:text="Sai Women's PG "
+        android:textColor="#F6F3F3"
+        android:textSize="16sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.714" />
+</androidx.constraintlayout.widget.ConstraintLayout>
